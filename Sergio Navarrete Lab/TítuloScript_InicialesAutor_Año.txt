@@ -1,0 +1,19 @@
+# Title: “Time series analyses”
+# Author details: Author: “John Smith”, Contact details: “John.Smith@unsw.edu.au”
+
+# Script info: “This script performs a time series analyses on count data.  
+# Data info: “Data consists of counts of bird species. Data was collected in the hunter valley region between 1990 and 1991.” 
+
+# Copyright statement: “This script is the product of UNSW etc”.
+
+# Packages: “ 
+library(car)
+library(lme4)
+library(Reshape2)
+library(ggplot2) “
+
+# WorkDirectory:  
+“setwd("C:/Users/JohnSmith/My_project_directory”)”
+
+# Data: 
+“my.data <- read.csv("my_data.csv", sep = ",", header = T, check.names = FALSE)”
